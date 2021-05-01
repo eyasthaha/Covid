@@ -1,0 +1,251 @@
+<style>
+html{
+    scroll-behavior: smooth;
+}
+body{
+  font-family: 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #1789e6;
+}
+
+.first{
+    user-select: none;
+    padding: 50px;
+    height: 80%;
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.first-head{
+    font-size: 25;
+    text-align: right;
+    position: relative;
+    margin-top: 50px;
+    float: none;
+}
+
+.corona{
+    float: left;
+}
+.corona img{
+    width: 100%;
+}
+
+.second{
+    user-select: none;
+    height: auto;
+    background-color: #e0e0e0;
+}
+
+.second-head{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.table img{
+    padding: 30px;
+}
+.table p{
+    padding: 30px;
+}
+.about{
+    height: auto;
+    background-color: lightgray;
+}
+.about p{
+    padding: 0 200px;
+    font-size: 20;
+    text-align: center;
+    font-weight: bold;
+    line-height:1.6;
+}
+
+.footer{
+    background-color: #000000;
+    height: auto;
+    color: azure;
+}
+
+#center{
+    text-align: center;
+    font-size: 15px;
+}
+
+.logout{
+    position: absolute;
+    margin: 5px;
+    padding: 0;
+    top: 5%;
+    right:5px;
+}
+
+.logout p{
+    font-size:15px;
+    color: red;
+}
+
+#form-button{
+    padding:10px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1789e6;
+    border: solid 2px #1789e6;;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn{
+    padding:10px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1789e6;
+    border: solid 2px #1789e6;;
+    font-size: 15;
+    font-weight: bold;  
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 150px;
+}
+
+a {
+  color: black;
+    text-decoration: none
+}
+#a {
+  color: #1789e6;
+    text-decoration: none
+}
+
+.div-center{
+  margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.form-center{
+     margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+div{
+    padding: 20px;
+}
+
+input[type=text],input[type=password],input[type=date],select,textarea{
+    padding:10px;
+    width: 350px;
+    border-radius: 10px;
+    border: solid 2px #1789e6;
+    outline: none;
+}
+
+textarea{
+    padding:10px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border: solid 2px #1789e6;
+    outline: none;
+}
+
+select:hover{
+    outline: none;
+    
+}
+
+input[type=submit]{
+    padding:10px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1789e6;
+    border: solid 2px #1789e6;;
+    font-size: 15;
+    font-weight: bold;
+}
+
+#text{
+    color: white;
+}
+.marquee{
+    background-color:cadetblue ;
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+button{
+    width: 200px;
+    padding:10px 20px;
+    background-color: white;
+    color: #1789e6;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 200px;
+    padding:10px 20px;
+    background-color: #1789e6;
+    color: white;
+    border: 1px solid #1789e6;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form td{
+    padding-top: 10px;
+}
+
+#list {
+  border-collapse: collapse;
+  width: 100%;
+    margin-top: 5%;
+}
+
+#list td, #list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+
+}
+
+#list tr:nth-child(even){background-color: #f2f2f2;}
+
+#list tr:hover {background-color: #ddd;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #1789e6;
+  color: white;
+}
+
+#bg{
+    padding: 0;
+    height:80%;
+    background-image: url("images/c.jpg");
+    opacity: .8;
+}
+</style>
